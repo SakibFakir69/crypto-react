@@ -13,7 +13,7 @@ function HeroSection() {
 
       {/* First Box  */}
       <div
-        className="position-absolute text-dark rounded p-3 border bg-light"
+        className="position-absolute text-dark rounded p-3 "
         style={{
           top: '30%',
           left: '5%',

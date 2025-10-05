@@ -18,3 +18,25 @@
           max-width: '400px',
 
 }
+
+
+.text-color-blue{
+    color: blue;
+
+}
+
+#finance-box{
+    background-image: url("/public/a67ee35d-dccf-4b27-8fe9-07bc6641bb86.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.accordion-button{
+    background-color: black;
+}
+
+
+.color{
+    background-color: #E7E9F6;
+}
