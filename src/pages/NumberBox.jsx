@@ -1,21 +1,20 @@
-
-
-
-
-import React from 'react'
+import React from 'react';
 
 function NumberBox() {
+  const numbers = ["15+", "1K+", "98%", "110+"];
+
   return (
-    <div className='d-flex col-lg-4 col-2 justify-content-center align-content-center  mt-4' style={{gap:"10em"}}>
+    <div className="container mt-4" style={{padding:"3em"}}>
 
-        <p className='fs-1 fw-bold text-color-blue '>15+</p>
-
-      <p className='fs-1 fw-bold text-color-blue '>1K+</p>
-      <p className='fs-1 fw-bold text-color-blue'>98%</p>
-      <p className='fs-1 fw-bold text-color-blue'>110+</p>
-
+      <div className="row text-center">
+        {numbers.map((num, index) => (
+          <div key={index} className="col-6 col-lg-3 mb-3">
+            <p className="fs-1 fw-bold text-color-blue mb-0">{num}</p>
+          </div>
+        ))}
+      </div>
     </div>
-  )
+  );
 }
 
-export default NumberBox
+export default NumberBox;

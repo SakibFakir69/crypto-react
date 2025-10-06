@@ -1,0 +1,22 @@
+<div className="mb-4 text-white">
+                
+                <p className="mb-0">
+                  <strong>Research </strong>
+                  Fill out your information on the left and click Submit.
+                </p>
+              </div>
+
+              <div className="p-3 text-white">
+             
+                <p className="mb-0">
+                  <strong>Planning </strong>
+                  We’ll contact you soon with more details.
+                </p>
+              </div>
+               <div className="p-3 text-white">
+             
+                <p className="mb-0">
+                  <strong>Execution </strong>
+                  We’ll contact you soon with more details.
+                </p>
+              </div>

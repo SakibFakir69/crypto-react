@@ -8,6 +8,8 @@ import InduestriesWeServe from './InduestriesWeServe'
 import Faq from './Faq'
 import Collabration from './Collabration'
 import RoadMap from './RoadMap'
+import BlockChain from './BlockChain'
+import Community from './Community'
 
 function Home() {
   return (
@@ -21,6 +23,9 @@ function Home() {
         <Faq/>
         <Collabration/>
         <RoadMap/>
+        <BlockChain/>
+        <Community/>
+        
       
     </div>
   )

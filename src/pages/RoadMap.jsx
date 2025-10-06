@@ -4,6 +4,9 @@ import { roadmapData } from "../ssot/RoadMapData";
 function RoadMap() {
   return (
     <div className="container py-5">
+
+
+      <h1 className="text-center">Road Map</h1>
       <div className="row g-4" style={{ padding: "3em" }}>
         {roadmapData.map((item, index) => (
           <div

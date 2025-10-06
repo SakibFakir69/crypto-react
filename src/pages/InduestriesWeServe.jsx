@@ -3,10 +3,9 @@ import React from "react";
 function IndustriesWeServe() {
   return (
     <div className="container my-5">
-
-        <div>
-            <h4 className="text-center mb-5">Induestrise We Serve</h4>
-        </div>
+      <div>
+        <h4 className="text-center mb-5">Induestrise We Serve</h4>
+      </div>
       <section className="row">
         {/* Left Box */}
         <div
@@ -22,27 +21,35 @@ function IndustriesWeServe() {
         </div>
 
         {/* Right Box */}
-        <div className="col-12 col-md-6 p-4  rounded shadow-sm">
+        <div className="col-12 col-md-6 p-4   rounded shadow-sm">
 
-          <div className="row gap-2 col-" style={{marginTop:"-20px"}}>
+          <div className="row g-3" style={{ marginTop: "-20px" }}>
 
-            <div className="mb-4 col bg-white shadow-sm  rounded" style={{height:"140px"}}>
-              <h3 className="fw-bold">Health Care</h3>
-              <p>
-                Blockchain transforming healthcare with secure medical
-                management.
-              </p>
+            <div className="col-12 col-md-6 mt-3">
+              <div className="bg-white shadow-sm rounded p-3 h-100">
+                <h3 className="fw-bold">Health Care</h3>
+                <p>
+                  Blockchain transforming healthcare with secure medical
+                  management.
+                </p>
+              </div>
             </div>
 
-            <div className="mb-4 col bg-white shadow-sm rounded">
-              <h3 className="fw-bold">Real Estate</h3>
-              <p>
-                Real estate transactions made secure with blockchain solutions.
-              </p>
+            <div className="col-12 col-md-6">
+              <div className="bg-white shadow-sm rounded p-3 h-100">
+                <h3 className="fw-bold">Real Estate</h3>
+                <p>
+                  Real estate transactions made secure with blockchain
+                  solutions.
+                </p>
+              </div>
             </div>
           </div>
 
-          <div className=" p-1 col    d-grid  mt-4 rounded " style={{backgroundColor:"white" , height:"170px"}} >
+          <div
+            className=" p-3 col-md-12    d-grid  mt-2  rounded bg-white "
+            style={{ minHeight: "200px" }}
+          >
             <h3 className="fw-bold">Supply Chain and Logistics</h3>
             <p>
               Our blockchain solutions streamline supply chain and logistics
@@ -53,11 +60,12 @@ function IndustriesWeServe() {
         </div>
       </section>
 
+      <div className="border border-info mt-4 d-flex justify-content-center align-content-center align-items-center rounded-pill">
 
-      <div className="border mt-4 d-flex justify-content-center align-content-center align-items-center rounded-pill">
-        <p className="mt-3 ">Join our community today to start your blockchain journy</p>
+        <p className="mt-3 w-75 ">
+          Join our community today to start your blockchain journy
+        </p>
       </div>
-      
     </div>
   );
 }
