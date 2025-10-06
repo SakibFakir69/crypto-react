@@ -296,20 +296,20 @@
   border: 20px;
 }
 
-/* Default for small devices (xs, sm, md) */
+
 #form-box {
-  padding: 0; /* full width, no padding */
+  padding: 0;
 }
 
 #faq-text {
-  margin-top: 0; /* adjust if needed */
+  margin-top: 0; 
 }
 
 .text-box-form {
   margin-top: 0;
 }
 
-/* Large devices and above (lg: 992px+) */
+
 @media (min-width: 992px) {
   #form-box {
     padding: 7em;
@@ -323,3 +323,25 @@
     margin-top: 100px;
   }
 }
+
+
+/* krypo */
+ #newsletter{
+    margin-top: -60px;
+ }
+
+
+
+ @media (max-width:768px) {
+    #footer-box{
+        margin-top: 160px;
+        text-align: left !important;
+       
+        
+    }
+    
+ }
+
+ .color-p{
+     color: #2E2E2E;
+ }

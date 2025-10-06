@@ -10,6 +10,7 @@ import Collabration from './Collabration'
 import RoadMap from './RoadMap'
 import BlockChain from './BlockChain'
 import Community from './Community'
+import Footer from './Footer'
 
 function Home() {
   return (
@@ -25,6 +26,7 @@ function Home() {
         <RoadMap/>
         <BlockChain/>
         <Community/>
+        <Footer/>
         
       
     </div>

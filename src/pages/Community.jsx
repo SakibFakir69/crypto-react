@@ -90,8 +90,8 @@ function Community() {
         </div>
 
         {/* input */}
-        <div className="container py-5" id="form-box">
-          
+        <div className="container py-5 mb-5" id="form-box">
+
           <div className="row g-5 align-items-center">
             {/* form*/}
             <div className="col-12 col-lg-6">
